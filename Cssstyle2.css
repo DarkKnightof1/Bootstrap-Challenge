@@ -1,67 +1,67 @@
 @media screen and (min-width: 1201px) {
-h1, h2, h3 {
-    font-family: 'Eczar', serif ; font-weight: 800;
-}
-body, p, a {
-    font-family: 'Eczar', serif ; font-weight: 400;
-}
-header {
-    background-image: url("images/nl_head.jpg");
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-collapse: collapse;
-}
-h1, h3 {
-    color: white;
-}
-body {
+    h1, h2, h3 {
+        font-family: 'Eczar', serif ; font-weight: 800;
+    }
+    body, p, a {
+        font-family: 'Eczar', serif ; font-weight: 400;
+    }
+    header {
+        background-image: url("images/nl_head.jpg");
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-collapse: collapse;
+    }
+    h1, h3 {
+        color: white;
+    }
+    body {
 
-}
-section {
-    display: inline-block;
-    width: 300px;
-    margin:auto;
-    float: left;
-    padding: 20px;
-}
-article {
-    display: inline-block;
-}
-.div1 {
-    align-content: center;
-    max-width: 1030px;
-    margin: auto
-}
-img {
-    width: 300px;
-}
-footer{
-    display: inline-block;
-    width: 300px;
-}
-nav {
-    padding-top: 10px;
-    background-color: black;
-    height: 30px;
-    text-align: right;
-}
-a {
-    color: grey;
-    padding-right: 10px;
-    text-decoration: none;
-}
-.a1 {
-    text-align: left;
-    color: grey;
-    float: left;
-}
-.type1 {
-    font-weight: bold;
-    color: black;
-}
+    }
+    section {
+        display: inline-block;
+        width: 300px;
+        margin:auto;
+        float: left;
+        padding: 20px;
+    }
+    article {
+        display: inline-block;
+    }
+    .div1 {
+        align-content: center;
+        max-width: 1030px;
+        margin: auto
+    }
+    img {
+        width: 300px;
+    }
+    footer{
+        display: inline-block;
+        width: 300px;
+    }
+    nav {
+        padding-top: 10px;
+        background-color: black;
+        height: 30px;
+        text-align: right;
+    }
+    a {
+        color: grey;
+        padding-right: 10px;
+        text-decoration: none;
+    }
+    .a1 {
+        text-align: left;
+        color: grey;
+        float: left;
+    }
+    .type1 {
+        font-weight: bold;
+        color: black;
+    }
 }
 @media screen and (min-width: 993px) and (max-width: 1199px){
     h1, h2, h3 {
@@ -87,7 +87,7 @@ a {
     }
     section {
         display: inline-block;
-        width: 280px;
+        width: 400px;
         margin:auto;
         float: left;
         padding: 20px;
@@ -101,7 +101,7 @@ a {
         margin: auto
     }
     img {
-        width: 280px;
+        width: 400px;
     }
     footer{
         display: inline-block;
@@ -154,10 +154,10 @@ a {
     }
     section {
         display: inline-block;
-        width: 750px;
+        width: 350px;
         margin:auto;
         float: left;
-        padding: 20px;
+        padding: 10px;
     }
     article {
         display: inline-block;
@@ -168,7 +168,7 @@ a {
         margin: auto
     }
     img {
-        width: 457px;
+        width: 350px;
     }
     footer{
         display: inline-block;

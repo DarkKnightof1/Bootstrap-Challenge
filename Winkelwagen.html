@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="Cssstyle.css">
+    <link rel="stylesheet" type="text/css" href="Cssstyle3.css">
     <meta charset="utf-8">
     <title>titel van het document</title>
 </head>
@@ -12,7 +12,79 @@
 * datum: 26-1-2018
 -->
 
+<div class="div1">
+    <nav>
+        <a class="a1">Northern Lights</a>
+        <a href="index.html">Home</a>
+        <a href="Webshop.html">Webshop</a>
+        <a href="Winkelwagen.html">Winkerlwagentje</a>
+    </nav>
+</div>
 <body>
+<div class="bg"></div>
+<div class="div1">
+    <header>
 
+        <h1>Northern Lights</h1>
+        <h3>Paintings & Art Webshop</h3>
+    </header>
+<section>
+    <img src="images/nl5.jpg" alt="pic5">
+    <img src="images/nl6.jpg" alt="pic6">
+    <img src="images/nl2.jpg" alt="pic2">
+</section>
+<section>
+    <h4>Finibus congue eros</h4>
+    <p>Price: € 679,-</p>
+    <br>
+    <h4>Nunc lacinia neque velit</h4>
+    <p>Price: € 1045,-</p>
+    <br>
+    <h4>Praesent et maximus orci</h4>
+    <p>Price: € 647,-</p>
+    <br>
+</section>
+<br>
+    <br>
+    <br>
+    <br>
+    <p>Aantal     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp      Sumtotaal</p>
+    <form oninput="x.value=parseInt(a.value) * 679">
+        <input type="number"  id="a" value="0"><label for="a"></label> = € <output name="x" for="a b"></output>
+    </form>
+<br>
+    <form oninput="z.value=parseInt(b.value) * 1045">
+        <input type="number"  id="b" value="0"><label for="b"></label> = € <output name="z" for="a b"></output>
+    </form>
+<br>
+    <form oninput="v.value=parseInt(c.value) * 647">
+        <input type="number"  id="c" value="0"><label for="c"></label> = € <output name="v" for="a b"></output>
+    </form>
+
+    <form oninput="w.value=(parseInt(a.value) * 679) + (parseInt(b.value) * 1045) + (parseInt(c.value) * 647)">
+        <input type="number"  id="d" value="0"><label for="d"></label> = € <output name="w" for="a b"></output>
+    </form>
+
+<script>
+    function myFunction() {
+
+        var getal1 = document.getElementById("getal1").value;
+        var totaal1 = getal1 * 679;
+        var c1 = document.getElementById("antwoord1");
+        var ctx = c1.getContext("2d");
+        ctx.font = "15px Arial";
+        ctx.fillText("€" + totaal1);
+
+        var getal2 = document.getElementById("getal2").value;
+        var totaal2 = getal2 * 1045;
+        document.getElementById("antwoord2").innerHtml = € + totaal2;
+
+        var getal3 = document.getElementById("getal3").value;
+        var totaal3 = getal3 * 647;
+        document.getElementById("antwoord3").innerHtml = € + totaal3;
+    }
+</script>
+
+</div>
 </body>
 </html>
